@@ -30,7 +30,12 @@ VALUES (37585,   1,      32768) /* ItemType - Caster */
      , (37585, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37585,  22, True ) /* Inscribable */
+VALUES (37585,  11, True ) /* IgnoreCollisions */
+     , (37585,  13, True ) /* Ethereal */
+     , (37585,  14, True ) /* GarvityStatus */
+     , (37585,  15, True ) /* LightsStatue */
+     , (37585,  19, True ) /* Attackable */
+     , (37585,  22, True ) /* Inscribable */
      , (37585,  69, False) /* IsSellable */
      , (37585,  99, True ) /* Ivoryable */;
 
@@ -62,9 +67,9 @@ VALUES (37585,   1,   33560575) /* Setup */
      , (37585,  52,  100689896) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37585,  2101,      2)  /* Aura of Cragstone's Will */
-     , (37585,  2117,      2)  /* Aura of Mystic's Blessing */
-     , (37585,  2534,      2)  /* Major War Magic Aptitude */
+VALUES (37585,  2117,      2)  /* Aura of Mystic's Blessing */
      , (37585,  2581,      2)  /* Minor Focus */
      , (37585,  2584,      2)  /* Minor Willpower */
+     , (37585,  2534,      2)  /* Major War Magic Aptitude */
+     , (37585,  2101,      2)  /* Aura of Cragstone's Will */
      , (37585,  3259,      2)  /* Aura of Infected Spirit Caress */;
